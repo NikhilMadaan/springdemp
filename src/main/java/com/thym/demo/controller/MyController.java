@@ -13,7 +13,7 @@ public class MyController {
 
     @GetMapping(value = "/welcome")
     public String About(Model model){
-        return "Inside about handler";
+        return "Inside about handler [new change]";
 //        model.addAttribute("name","Nikhil");
 //        return "about";
     }
