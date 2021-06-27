@@ -17,4 +17,10 @@ public class MyController {
 //        model.addAttribute("name","Nikhil");
 //        return "about";
     }
+    @GetMapping(value = "/main")
+    public String About(Model model){
+        return "Nikhil Madaan";
+//        model.addAttribute("name","Nikhil");
+//        return "about";
+    }
 }
