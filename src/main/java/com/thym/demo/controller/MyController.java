@@ -23,4 +23,10 @@ public class MyController {
 //        model.addAttribute("name","Nikhil");
 //        return "about";
     }
+    @GetMapping(value = "/hello")
+    public String About(Model model){
+        return "Hello! Nikhil Madaan";
+//        model.addAttribute("name","Nikhil");
+//        return "about";
+    }
 }
